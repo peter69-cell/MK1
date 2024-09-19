@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Portfolio</title>
+    <style>
+
+        /* Reset and global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #676064;
+    color: #f8f8f8;
+}
+
+/* Header styles */
+header {
+    background: #676064;
+    color: #ffffff;
+    text-align: center;
+    padding: 2rem;
+}
+
+header img.profile-pic {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+header h1 {
+    margin: 1rem 0;
+}
+
+/* Navigation styles */
+nav {
+    background: #2b2b2b;
+    color: #ffffff;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    color: #C1B8B8;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main content styles */
+main {
+    margin: 2rem;
+}
+
+/* Section styles */
+section {
+    background: #C1B8B8;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgb(0, 0, 0);
+}
+
+section h2 {
+    margin-bottom: 1rem;
+}
+
+/* Skills table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 1rem;
+    text-align: left;
+}
+
+th {
+    background: #333;
+}
+
+tr:nth-child(even) {
+    background: #585858;
+}
+
+tr:nth-child(odd) {
+    background: #8f8f8f;
+}
+
+/* Hobbies section styles */
+#hobbies {
+    background: #504d4d;
+    padding: 2rem;
+}
+
+#hobbies ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#hobbies li {
+    margin: 10px;
+    background: #1e1d1d;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.hobby-pic {
+    width: 100px;
+    height: auto;
+}
+
+/* Contact section styles */
+#contact {
+    background: #C1B8B8;
+    padding: 2rem;
+    text-align: center;
+}
+
+#contact a {
+    color: #282727;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+/* Footer styles */
+footer {
+    background: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+</style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <img src="Profilepic.jpeg" alt="Profile Picture" class="profile-pic">
+        <h1>John Patrick M. Chua</h1>
+        <p>Hi! I'm Patrick, a professional in advanced driving, design, and AI technologies. Nice to meet you!</p>
+    </header>
+
+    <!-- Navigation Menu -->
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#hobbies">Hobbies</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <!-- About Me Section -->
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hi, I’m Patrick, but you can call me Pat. I’m 20 years old and currently in my third year studying Bachelor of Science in Information Systems at City College of Calapan.</p>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills">
+            <h2>Skills</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Skill</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Advanced Driver</td>
+                        <td>Expert in defensive driving, handling emergencies, and high-performance maneuvers.</td>
+                    </tr>
+                    <tr>
+                        <td>Design</td>
+                        <td>Creative designer skilled in graphic, web, and functional design.</td>
+                    </tr>
+                    <tr>
+                        <td>AI Specialist</td>
+                        <td>Working with machine learning and AI tools to build practical solutions.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Hobbies Section -->
+        <section id="hobbies">
+            <h2>Hobbies</h2>
+            <ul>
+                <li style="margin: 10px;">
+                    <img src="money.gif" alt="hobby  image" class="hobby-pic">
+                    <h3>Spending money</h3>
+                </li>
+                <li style="margin: 10px;">
+                    <img src="music.gif" alt="hobby image" class="hobby-pic">
+                    <h3>Listening Music</h3>
+                </li>
+                <li style="margin: 10px;">
+                    <img src="eating.gif" alt="hobby image" class="hobby-pic">
+                    <h3>Eating</h3>
+                </li>
+                <li style="margin: 10px;">
+                    <img src="lazy.gif" alt="hobby image" class="hobby-pic">
+                    <h3>Lazy</h3>
+                </li>
+                <li style="margin: 10px;">
+                    <img src="sleeping.png" alt="hobby image" class="hobby-pic">
+                    <h3>Sleeping</h3>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Feel free to reach out to me through the following:</p>
+            <p>Facebook: <a href="https://www.facebook.com/St.Peter.069/">John Patrick Chua</a></p>
+            <p>Phone: &#9742 09167063589</p>
+            <p>Email: &#9993 <a href="mailto:chuajohnpatrick28@gmail.com">chuajohnpatrick28@gmail.com</a></p>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 John Patrick M. Chua. All rights reserved.</p>
+    </footer>
+</body>
+</html>
